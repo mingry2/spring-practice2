@@ -22,9 +22,9 @@ class UserDaoTest {
     @Autowired
     ApplicationContext context;
     UserDao userDao;
-    User user1 = new User("0", "kyeonghwan", "1123");
-    User user2 = new User("1", "sujin", "1234");
-    User user3 = new User("2", "sohyun", "4321");
+    User user1 = new User("0", "AAA", "1111");
+    User user2 = new User("1", "BBB", "2222");
+    User user3 = new User("2", "CCC", "3333");
 
     @BeforeEach
     void setUp() {
